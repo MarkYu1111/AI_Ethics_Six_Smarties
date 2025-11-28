@@ -19,7 +19,7 @@ def setup_models():
     # Setup Groq
     groq_key = open("groq_api_key.txt").read().strip()
     groq_client = Groq(api_key=groq_key)
-    groq_model = "llama-3.3-8b-instant" # using instant model, intending different responses
+    groq_model = "llama-3.1-8b-instant" # using instant model, intending different responses
     
     return gemini_model, groq_client, groq_model
 
