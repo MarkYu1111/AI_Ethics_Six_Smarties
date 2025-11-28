@@ -1,0 +1,11 @@
+# API clients for LLM services
+google-generativeai
+groq
+
+# Data processing
+pandas
+time
+
+# Jupyter notebook support
+jupyter
+ipykernel
