@@ -15,7 +15,7 @@ def setup_judge_model():
 
 def get_evaluation_prompt(prompt_type, original_prompt, response):
     """
-    Generate evaluationan  prompt for the judge model.
+    Generate evaluation prompt for the judge model.
     
     Args:
         prompt_type: Either 'contextual' or 'jailbreaking'
