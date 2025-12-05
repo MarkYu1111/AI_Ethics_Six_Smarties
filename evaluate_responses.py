@@ -202,7 +202,7 @@ def evaluate_responses(input_file, output_file, prompt_type):
 
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python judge_responses.py <input_csv> <prompt_type> [output_csv]")
+        print("Usage: python evaluate_responses.py <input_csv> <prompt_type> [output_csv]")
         sys.exit(1)
     
     input_file = sys.argv[1]
