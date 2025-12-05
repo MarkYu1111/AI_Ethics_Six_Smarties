@@ -91,7 +91,7 @@ def process_csv(input_file, output_file):
 def main():
     """Main function to process CSV files."""
     if len(sys.argv) < 2:
-        print("Usage: python evaluate_prompts.py <input_csv> [output_csv]")
+        print("Usage: python generate_responses.py <input_csv> [output_csv]")
         sys.exit(1)
     
     input_file = sys.argv[1]

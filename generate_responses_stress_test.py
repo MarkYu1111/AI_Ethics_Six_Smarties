@@ -89,6 +89,6 @@ if __name__ == "__main__":
 
     if not default_csv.exists():
         print("File not found: stress_test_prompts/stress_test_prompts.csv")
-        print("Run with: python stress_test_runner.py <path_to_csv>")
+        print("Run with: python generate_responses_stress_test.py <path_to_csv>")
     else:
         run_stress_tests(default_csv)
